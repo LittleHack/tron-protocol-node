@@ -1,0 +1,14 @@
+{
+  "name": "tron-protocol-node",
+  "version": "1.0.6",
+  "description": "Node.js wrapper for Tron protocol. Compiled from tronprotocol/protocol, commit : 0f02cfd.",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Zhelyazkov",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.7.0"
+  }
+}
