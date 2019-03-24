@@ -39,7 +39,7 @@ npm i -g grpc-tools
 ###### Run the compilation command for protocol/api/ files (artifacts are in node-protocol/api -> api_pb.js and api_grpc_pb.js)
 
 ```
-protoc --js_out=import_style=commonjs,binary:node-protocol/ --grpc_out=node-protocol/ --plugin=protoc-gen-grpc=\`which grpc_tools_node_protoc_plugin` api/api.proto
+protoc --js_out=import_style=commonjs,binary:node-protocol/ --grpc_out=node-protocol/ --plugin=protoc-gen-grpc=`which grpc_tools_node_protoc_plugin` api/api.proto
 ```
 ###### Run the compilation command for protocol/core/ files (artifacts are in node-protocol/core)
 
